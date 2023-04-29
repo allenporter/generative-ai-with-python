@@ -1,0 +1,9 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/alpine
+{
+	"name": "Alpine",
+	// see https://containers.dev/guide/dockerfile
+	"dockerFile": "Dockerfile", 
+	"context": "..", 
+	"args": {"VARIANT": "3.11"} 
+}
